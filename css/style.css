@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00308F;
+    --primary: #00308f;
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
@@ -88,6 +88,7 @@ h6,
 
 
 /*** Navbar ***/
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f067";
@@ -163,6 +164,7 @@ h6,
 @media (min-width: 992px) {
     .navbar-light {
         position: absolute;
+        color: var(--primary) !important;
         width: 100%;
         top: 0;
         left: 0;
